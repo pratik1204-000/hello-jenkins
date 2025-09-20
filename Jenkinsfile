@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/pratik1204-000/hello-jenkins.git'
+                git 'https://github.com/pratik1204-000/hello-jenkins.git', branch: 'main'
             }
         }
 
